@@ -55,3 +55,17 @@ The multiple linear regression formula for mpg = -.01 + 6.267(vehicle length)+.0
 
 3. Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?    
 R-squared is .7149, which is a strong correlation for the dataset and shows the dataset is an effective dataset.  However, r-squared is not the only consideration for effectiveness.  There may be other variables not included in the dataset contributing to the variation in the mpg. 
+
+## Summary Statistics on Suspension Coils
+### Manufacturing Lot Summary
+Below is the summary statistics of all of the manufacturing lots.  The mean is 1498.78 for this sample and the population mean was determined to be 1500.
+
+![tot_sum](https://user-images.githubusercontent.com/74940620/215629732-2f68df4c-946a-4dcc-986f-429cc86a6ead.png)
+
+### Summary by Manufacturing Lot Number
+The means of the lot numbers are similar to the population mean and the sample mean.
+
+![lot_sum](https://user-images.githubusercontent.com/74940620/215629810-a9fa5085-d125-43c2-be0a-0373a302e3f8.png)
+
+1. The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?      
+The variance for the total manufacturing lot is 62 < 100, which is within the expected design specifications of staying under 100 PSI.  However, when reviewing the data by Lot number, Lot 3 is a large contributing factor to the variance being high.  Lot 3 shows a variance of 170 > 100 and does not meet the design specifications.  Lot 1 and Lot 2 have significantly lower variance, 1 and 7 respectively.
